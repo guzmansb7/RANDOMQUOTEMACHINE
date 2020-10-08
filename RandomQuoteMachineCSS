@@ -1,0 +1,46 @@
+:root {
+  font-family: system-ui;
+  color: white;
+}
+
+body {
+  background: linear-gradient(95deg, blue, lightblue);
+  font-family: 'K2D', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+
+
+#quote-box {
+  width: 400px;
+  margin: 0 auto;
+  padding: 1px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px gray;
+}
+
+#buttons {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 22px;
+  }
+  #quote-box {
+    width: 270px;
+  }
+}
